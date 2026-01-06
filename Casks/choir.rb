@@ -3,7 +3,7 @@ cask "choir" do
   name "choir"
   desc "Create isolated environments for AI agents to execute autonomously"
   homepage "https://github.com/Quidge/choir"
-  version "0.1.2"
+  version "0.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "choir" do
   on_macos do
     on_intel do
       url "https://github.com/Quidge/choir/releases/download/v#{version}/choir_#{version}_darwin_amd64.tar.gz"
-      sha256 "e107d35d445c72b8b0c7b20dae4330614259fda7b343c70b3cedee6a7e473764"
+      sha256 "15f9729f1482ec41adda54336768df444943cedb3206d40c60ac16351ceb65a1"
     end
     on_arm do
       url "https://github.com/Quidge/choir/releases/download/v#{version}/choir_#{version}_darwin_arm64.tar.gz"
-      sha256 "de184acb1016b06ebb83819d9e8ee908295a094e836cd2f8d0e163933b88a162"
+      sha256 "f2d45212169c28f1c9a1a24594b1aad6b675b22944569d1f8c6e900b96be6526"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Quidge/choir/releases/download/v#{version}/choir_#{version}_linux_amd64.tar.gz"
-      sha256 "879a709a102fe7bc82ef9d09ed46fb8de213455c018ae91c904b6a8a8f04ff70"
+      sha256 "861eecad4d869cef394c66041089befe7708ca505602cfbe5465f2b51fd03fa1"
     end
     on_arm do
       url "https://github.com/Quidge/choir/releases/download/v#{version}/choir_#{version}_linux_arm64.tar.gz"
-      sha256 "1e261da0b3081dd8a99d8086aafe87a4cd78fdec1d5c5d23b1dd9444507212e6"
+      sha256 "92d07fc551c7e52df71b16eb7f3ab04f91624b3642c1da20b54a6389b4439753"
     end
   end
 
